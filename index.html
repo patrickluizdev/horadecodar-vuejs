@@ -14,9 +14,14 @@
 <body>
 
     <div id="app">
-        <p>{{message}} <BR> O meu nome é: {{name}}, {{idade}}</p>
-    </div>
+        <form id="app-form">
+            <input type="text" v-model="input_name" placeholder="Digite seu nome">
+            <input type="submit" value="Enviar" v-on:click="submitForm">
+        </form>
 
+        <p>{{message}}, Seu nome é {{input_name}}</p>
+
+    </div>
     
 </body>
 </html>
