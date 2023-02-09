@@ -3,6 +3,7 @@
     <PrimeiroComponente/>
     <LifeCycle/>
     <Pessoa/>
+    <Picture/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@
 
     import LifeCycle from './components/LifeCycle.vue'
     import Pessoa from './components/Pessoa.vue'
+    import Picture from './components/Picture.vue'
 
 
     export default{
@@ -19,7 +21,8 @@
       components: {
         PrimeiroComponente,
         LifeCycle,
-        Pessoa
+        Pessoa,
+        Picture
       }
     }
 
