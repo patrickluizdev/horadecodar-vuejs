@@ -7,7 +7,7 @@ export default {
     name: 'Picture',
     data() {
         return{
-        avatar: './src/img/teste.png',
+        avatar: '../src/img/teste.png',
         descricao:'Teste Imagem'
         }
     },
